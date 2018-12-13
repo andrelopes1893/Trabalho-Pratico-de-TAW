@@ -2,7 +2,7 @@
 	<head>
         <html>
 	<head>
-		<title>A Determinar</title>
+		<title>Cave dos Programadores</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 	* {
@@ -356,7 +356,6 @@
                 </tr>
                 <tr>
                     <td>
-                        <!-- mudar classes nome funcao e id. por identificador -->
                         <div class="dropdownOutro">
                             <button onclick="Foutro()" class="dropbtnOutro">Outros</button>
                             <div id="Outro" class="dropdown-contentOutro">
@@ -381,12 +380,11 @@
 	  </article>
 	</section>
     <script>
-            /* mudar o class nome funcao e o show */
             function FVinhos() {
               document.getElementById("Vinhos").classList.toggle("showVinhos");
             }
             
-            // 
+             
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtnVinhos')) {
                 var dropdowns2 = document.getElementsByClassName("dropdown-contentVinhos");
@@ -402,8 +400,7 @@
             function FWhiskys() {
               document.getElementById("Whiskys").classList.toggle("showWhiskys");
             }
-            
-            // 
+             
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtnWhiskys')) {
                 var dropdowns2 = document.getElementsByClassName("dropdown-contentWhiskys");
@@ -419,8 +416,7 @@
             function FVodkas() {
               document.getElementById("Vodkas").classList.toggle("showVodkas");
             }
-            
-            // 
+             
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtnVodkas')) {
                 var dropdowns2 = document.getElementsByClassName("dropdown-contentVodkas");
@@ -437,7 +433,6 @@
               document.getElementById("Champanhe").classList.toggle("showChampanhe");
             }
             
-            // 
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtnChampanhe')) {
                 var dropdowns2 = document.getElementsByClassName("dropdown-contentChampanhe");
@@ -454,7 +449,6 @@
               document.getElementById("Outro").classList.toggle("showOutro");
             }
             
-            // Close the dropdown if the user clicks outside of it
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtnOutro')) {
                 var dropdowns = document.getElementsByClassName("dropdown-contenOutro");
