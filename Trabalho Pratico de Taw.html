@@ -52,7 +52,8 @@
 		height: auto;
 	  }
     }
-    .dropbtn {
+   /* daqui */
+    .dropbtnVinhos {
   background-color: #3498DB;
   color: white;
   padding: 16px;
@@ -61,19 +62,19 @@
   cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+
+.dropbtnVinhos:hover, .dropbtnVinhos:focus {
   background-color: #2980B9;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+
+.dropdownVinhos {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+
+.dropdown-contentVinhos {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -82,19 +83,199 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
+
+.dropdown-contentVinhos a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.dropdown-contentVinhos a:hover {background-color: #ddd}
+
+
+.showVinhos {display:block;}/* Aqui */
+
+/* daqui */
+.dropbtnWhiskys{
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropbtnWhiskys:hover, .dropbtnWhiskys:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdownWhiskys {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-contentWhiskys {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-contentWhiskys a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-contentWhiskys a:hover {background-color: #ddd}
+
+
+.showWhiskys {display:block;}/* Aqui */
+
+/* daqui */
+.dropbtnVodkas {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropbtnVodkas:hover, .dropbtnVodkas:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdownVodkas {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-contentVodkas {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-contentVodkas a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-contentVodkas a:hover {background-color: #ddd}
+
+
+.showVodkas {display:block;}/* Aqui */
+
+/* daqui */
+.dropbtnChampanhe {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropbtnChampanhe:hover, .dropbtnChampanhe:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdownChampanhe {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-contentChampanhe {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-contentChampanhe a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-contentChampanhe a:hover {background-color: #ddd}
+
+
+.showChampanhe {display:block;}/* Aqui */
+
+/* daqui */
+.dropbtnOutro {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropbtnOutro:hover, .dropbtnOutro:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdownOutro {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-contentOutro {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-contentOutro a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-contentOutro a:hover {background-color: #ddd}
+
+
+.showOutro {display:block;}/* Aqui */
 	</style>
 	</head>
 	<body>
@@ -119,9 +300,9 @@
 			<table>
                 <tr>
                     <td>
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Vinhos</button>
-                            <div id="myDropdown" class="dropdown-content">
+                        <div class="dropdownVinhos">
+                            <button onclick="FVinhos()" class="dropbtnVinhos">Vinhos</button>
+                            <div id="Vinhos" class="dropdown-contentVinhos">
                                 <a href="#">Douro</a>
                                 <a href="#">Dão</a>
                                 <a href="#">Alentejo</a>
@@ -135,9 +316,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Whiskys</button>
-                            <div id="myDropdown" class="dropdown-content">
+                        <div class="dropdownWhiskys">
+                            <button onclick="FWhiskys()" class="dropbtnWhiskys">Whiskys</button>
+                            <div id="Whiskys" class="dropdown-contentWhiskys">
                                 <a href="#">Bourbon</a>
                                 <a href="#">Scotch</a>
                                 <a href="#">Irish</a>
@@ -148,9 +329,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Vodkas</button>
-                            <div id="myDropdown" class="dropdown-content">
+                        <div class="dropdownVodkas">
+                            <button onclick="FVodkas()" class="dropbtnVodkas">Vodkas</button>
+                            <div id="Vodkas" class="dropdown-contentVodkas">
                                 <a href="#">Vodka Pura</a>
                                 <a href="#">Vodka Preta</a>
                                 <a href="#">Vodkas de Frutas</a>
@@ -161,9 +342,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Champanhe</button>
-                            <div id="myDropdown" class="dropdown-content">
+                        <div class="dropdownChampanhe">
+                            <button onclick="FChampanhe()" class="dropbtnChampanhe">Champanhe</button>
+                            <div id="Champanhe" class="dropdown-contentChampanhe">
                                 <a href="#">Champanhe</a>
                                 <a href="#">Espumantes Rosé</a>
                                 <a href="#">Espumantes Brancos</a>
@@ -175,9 +356,10 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Outros</button>
-                            <div id="myDropdown" class="dropdown-content">
+                        <!-- mudar classes nome funcao e id. por identificador -->
+                        <div class="dropdownOutro">
+                            <button onclick="Foutro()" class="dropbtnOutro">Outros</button>
+                            <div id="Outro" class="dropdown-contentOutro">
                                 <a href="#">Tequila</a>
                                 <a href="#">Rum</a>
                                 <a href="#">Licor</a>
@@ -198,6 +380,94 @@
 		<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
 	  </article>
 	</section>
-
+    <script>
+            /* mudar o class nome funcao e o show */
+            function FVinhos() {
+              document.getElementById("Vinhos").classList.toggle("showVinhos");
+            }
+            
+            // 
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtnVinhos')) {
+                var dropdowns2 = document.getElementsByClassName("dropdown-contentVinhos");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('showVinhos')) {
+                    openDropdown.classList.remove('showVinhos');
+                  }
+                }
+              }
+            }
+            function FWhiskys() {
+              document.getElementById("Whiskys").classList.toggle("showWhiskys");
+            }
+            
+            // 
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtnWhiskys')) {
+                var dropdowns2 = document.getElementsByClassName("dropdown-contentWhiskys");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('showWhiskys')) {
+                    openDropdown.classList.remove('showWhiskys');
+                  }
+                }
+              }
+            }
+            function FVodkas() {
+              document.getElementById("Vodkas").classList.toggle("showVodkas");
+            }
+            
+            // 
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtnVodkas')) {
+                var dropdowns2 = document.getElementsByClassName("dropdown-contentVodkas");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('showVodkas')) {
+                    openDropdown.classList.remove('showVodkas');
+                  }
+                }
+              }
+            }
+            function FChampanhe() {
+              document.getElementById("Champanhe").classList.toggle("showChampanhe");
+            }
+            
+            // 
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtnChampanhe')) {
+                var dropdowns2 = document.getElementsByClassName("dropdown-contentChampanhe");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('showChampanhe')) {
+                    openDropdown.classList.remove('showChampanhe');
+                  }
+                }
+              }
+            }
+            function Foutro() {
+              document.getElementById("Outro").classList.toggle("showOutro");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtnOutro')) {
+                var dropdowns = document.getElementsByClassName("dropdown-contenOutro");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('showOutro')) {
+                    openDropdown.classList.remove('showOutro');
+                  }
+                }
+              }
+            }
+    </script>
+            
 	</body>
 </html>		
