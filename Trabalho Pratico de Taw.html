@@ -1,7 +1,6 @@
 <html>
 	<head>
         <html>
-	<head>
 		<title>Cave dos Programadores</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -11,12 +10,12 @@
 
 	body {
       font-family: Arial, Helvetica, sans-serif;
-     background-color:  #f1f1f1;
+     background-color:	#bf5940;
 	}
 
 
 	header {
-	  background-color: #666;
+	  background-color: #4d0000;
 	  text-align: center;
 	  font-size: 35px;
 	  color: white;
@@ -27,7 +26,7 @@
 	  float: left;
 	  width: 17,5%;
 	  height: 92.5%; 
-	  background: #ccc;
+	  background:#4d0000;
 	}
 
 	nav ul {
@@ -38,9 +37,24 @@
 	article {
 	  float: right;
 	  width: 84%;
-	  background-color: #f1f1f1;
+	  background-color: 	#bf5940;
 	  height: 92.5%;
-	}
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+  }
+
+  p {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 22px;
+}
+
 	section:after {
 	  content: "";
 	  display: table;
@@ -54,18 +68,27 @@
     }
    /* daqui */
     .dropbtnVinhos {
-  background-color: #3498DB;
+  background-color: #4d0000;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
   width: 225px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 2px solid white;
+
+
+}
+
+.dropdownVinhos:hover .dropdown-contentVinhos {
+    display: block;
 }
 
 
 .dropbtnVinhos:hover, .dropbtnVinhos:focus {
-  background-color: #2980B9;
+  background-color: 	#990000;
 }
 
 
@@ -78,7 +101,7 @@
 .dropdown-contentVinhos {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: 	#990000;
   width: 225px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -86,32 +109,39 @@
 
 
 .dropdown-contentVinhos a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 
-.dropdown-contentVinhos a:hover {background-color: #ddd}
+.dropdown-contentVinhos a:hover {background-color: #cc0000}
 
 
 .showVinhos {display:block;}/* Aqui */
 
 /* daqui */
 .dropbtnWhiskys{
-  background-color: #3498DB;
+  background-color: #4d0000;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
+  padding-top: 25px;
+  padding-bottom: 25px;
   width: 225px;
+  border-top: 2px solid white;
+}
+
+.dropdownWhiskys:hover .dropdown-contentWhiskys {
+    display: block;
 }
 
 
 .dropbtnWhiskys:hover, .dropbtnWhiskys:focus {
-  background-color: #2980B9;
+  background-color: 	#990000;
 }
 
 
@@ -124,7 +154,7 @@
 .dropdown-contentWhiskys {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: 	#990000;
   width: 225px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -132,32 +162,39 @@
 
 
 .dropdown-contentWhiskys a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 
-.dropdown-contentWhiskys a:hover {background-color: #ddd}
+.dropdown-contentWhiskys a:hover {background-color: #cc0000}
 
 
 .showWhiskys {display:block;}/* Aqui */
 
 /* daqui */
 .dropbtnVodkas {
-  background-color: #3498DB;
+  background-color:  #4d0000;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
   width: 225px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 2px solid white;
+}
+
+.dropdownVodkas:hover .dropdown-contentVodkas {
+    display: block;
 }
 
 
 .dropbtnVodkas:hover, .dropbtnVodkas:focus {
-  background-color: #2980B9;
+  background-color: 	#990000;
 }
 
 
@@ -170,7 +207,7 @@
 .dropdown-contentVodkas {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: 	#990000;
   width: 225px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -178,32 +215,39 @@
 
 
 .dropdown-contentVodkas a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 
-.dropdown-contentVodkas a:hover {background-color: #ddd}
+.dropdown-contentVodkas a:hover {background-color: #cc0000}
 
 
 .showVodkas {display:block;}/* Aqui */
 
 /* daqui */
 .dropbtnChampanhe {
-  background-color: #3498DB;
+  background-color: #4d0000;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
   width: 225px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 2px solid white;
+}
+
+.dropdownChampanhe:hover .dropdown-contentChampanhe {
+    display: block;
 }
 
 
 .dropbtnChampanhe:hover, .dropbtnChampanhe:focus {
-  background-color: #2980B9;
+  background-color: 	#990000;
 }
 
 
@@ -216,40 +260,48 @@
 .dropdown-contentChampanhe {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: 	#990000;
   width: 225px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  bottom: 100%
 }
 
 
 .dropdown-contentChampanhe a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 
-.dropdown-contentChampanhe a:hover {background-color: #ddd}
+.dropdown-contentChampanhe a:hover {background-color: #cc0000}
 
 
 .showChampanhe {display:block;}/* Aqui */
 
 /* daqui */
 .dropbtnOutro {
-  background-color: #3498DB;
+  background-color: #4d0000;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 22px;
   border: none;
   cursor: pointer;
   width: 225px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 2px solid white;
+}
+
+.dropdownOutro:hover .dropdown-contentOutro {
+    display: block;
 }
 
 
 .dropbtnOutro:hover, .dropbtnOutro:focus {
-  background-color: #2980B9;
+  background-color: 	#990000;
 }
 
 
@@ -262,22 +314,23 @@
 .dropdown-contentOutro {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: 	#990000;
   width: 225px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  bottom: 100%
 }
 
 
 .dropdown-contentOutro a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 
-.dropdown-contentOutro a:hover {background-color: #ddd}
+.dropdown-contentOutro a:hover {background-color: #cc0000}
 
 
 .showOutro {display:block;}/* Aqui */
@@ -304,7 +357,7 @@
 				<td width= "30%" style="padding-right: 30px" align="center">
 					<input placeholder="Pesquisa..." type="text" name="pesquisa" id="pesquisa" style="border-radius:2em; padding-left:10px; width:350px; height: 30px">
 				</td>
-				<td width = "10%">
+				<td width = "10%"  style ="color: white;" align="center">
 					<a>Contactos</a>
 				</td>
 			</tr>
@@ -316,7 +369,7 @@
 			<table width=100% >
                 <tr>
                     <td>
-                        <div class="dropdownVinhos">
+                        <div class="dropdownVinhos"  style="padding-bottom: 62px; ">
                             <button onclick="FVinhos()" class="dropbtnVinhos"><b>Vinhos</b></button>
                             <div id="Vinhos" class="dropdown-contentVinhos">
                                 <a href="#">Douro</a>
@@ -332,7 +385,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdownWhiskys">
+                        <div class="dropdownWhiskys"  style="padding-bottom: 62px;">
                             <button onclick="FWhiskys()" class="dropbtnWhiskys"><b>Whiskys</b></button>
                             <div id="Whiskys" class="dropdown-contentWhiskys">
                                 <a href="#">Bourbon</a>
@@ -345,7 +398,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdownVodkas">
+                        <div class="dropdownVodkas" style="padding-bottom: 62px;">
                             <button onclick="FVodkas()" class="dropbtnVodkas"><b>Vodkas</b></button>
                             <div id="Vodkas" class="dropdown-contentVodkas">
                                 <a href="#">Vodka Pura</a>
@@ -358,7 +411,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <div class="dropdownChampanhe">
+                        <div class="dropdownChampanhe" style="padding-bottom: 62px;">
                             <button onclick="FChampanhe()" class="dropbtnChampanhe"><b>Champanhe</b></button>
                             <div id="Champanhe" class="dropdown-contentChampanhe">
                                 <a href="#">Champanhe</a>
@@ -390,9 +443,12 @@
         </table>
 	  </nav>
 	  <article>
-		<h1>London</h1>
-		<p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-		<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      <h1>"Cave dos Programadores"</h1>
+      <p align="center">
+        <img src="imagens/caves.jpg" width="501px" height="333px">
+      </p>
+		  <p>A "Cave dos Programadores" é um projeto no mercado dos vinhos e destilados, assumindo-se como um modelo em termos de inovação e desenvolvimento.</p>
+		  <p>Este projeto foi desenvolvido por três alunos da licenciatura em "Tecnologias e Sistemas de Informação para a Web", com o fim de realizar o seu trabalho prático para a disciplina de Tecnologias e Aplicações Web.</p>
 	  </article>
 	</section>
     <script>
